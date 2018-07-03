@@ -8,17 +8,31 @@ body {
   overflow-x: hidden;
 }
 
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2 {
+
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+
 /* HEADER */
 
 header {
   position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 4rem;
   padding: 0 1.5rem;
-  background-color: yellow;
+  z-index: 20;
+  background-color: rgb(253, 167, 169);
 }
 
 #brand {
@@ -64,22 +78,156 @@ header a {
 
 /* End of HEADER */
 
+/* BANNER */
+
+#banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 2rem 1.5rem;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(213, 105, 108);
+}
+
+#banner img {
+  max-width: 60%;
+  height: auto;
+  margin: 2rem 0 2rem 1.5rem;
+}
+
+#banner .content {
+  max-width: 40%;
+  height: 100%;
+  margin-left: 1.5rem;
+}
+
+#banner h1 {
+  max-width: 75%;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  color: #000038;
+}
+
+#banner h2 {
+  max-width: 75%;
+  padding-left: 1.5rem;
+  color: #000054;
+}
+
+#banner .button {
+  height: auto;
+  max-width: 65%;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  padding: 1.5rem;
+  background-color: rgb(90, 1, 3);
+  text-align: center;
+  border: 1px solid rgb(253, 167, 169);
+  border-radius: 0.25rem;
+}
+
+#banner .button span {
+  font-size: 1.7rem;
+  color: white;
+}
+
+/* End of BANNER */
+
+/* INFORMATION */
+
+#information {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  background-color: rgb(170, 59, 62);
+}
+
+#information .main {
+    width: 60%;
+    height: auto;
+    padding: 2rem 1.5rem;
+}
+
+#information img {
+  margin: 2rem 1.5rem;
+}
+
+#information .main h1 {
+  margin: 1.5rem;
+}
+
+#information .main p {
+  font-size: 1.3rem;
+  margin: 1.5rem;
+  line-height: 2rem;
+}
+
+#information .main p .bold {
+  font-weight: bold;
+  margin: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+#information .secondary {
+  width: 40%;
+  background-color: rgb(133, 23, 26);
+}
+
+#information .secondary .container {
+  display: flex;
+  align-items: center;
+}
+
+#information .secondary img {
+  width: 35%;
+}
+
+#information .secondary .content {
+  width: 65%;
+}
+
+#information .secondary .content h2 {
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+}
+
+#information .secondary .content p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  padding: 0.5rem 0;
+}
+
+#information .secondary .content a {
+  color: lightblue;
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+/* End of INFORMATION */
+
 /* FOOTER */
 
 footer {
-  position: absolute;
-  top: 100px;
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
   height: 5rem;
   padding: 1.5rem 1.5rem;
-  background-color: green;
+  background-color: rgb(90, 1, 3);
 }
 
 footer .copyright {
   font-size: 1.2rem;
+  color: rgb(255, 230, 230);
 }
 
 footer nav {
@@ -93,7 +241,7 @@ footer nav li {
 }
 
 footer a {
-  color: black;
+  color: rgb(255, 230, 230);
   text-decoration: none;
 }
 
