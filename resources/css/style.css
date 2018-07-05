@@ -212,6 +212,144 @@ header a {
 
 /* End of INFORMATION */
 
+/* COURSES */
+
+#courses {
+  background-color: rgb(213, 105, 108);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+#courses h1 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 3rem;
+}
+
+#courses .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 4.5rem;
+}
+
+#courses .course {
+  max-width: 30%;
+  height: 28rem;
+  margin: 0 1rem 2rem 1rem;
+  background-color: rgb(170, 59, 62);
+}
+
+#courses .course img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+#courses .course h2 {
+  padding: 0 1rem;
+}
+
+#courses .course p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  padding: 0 1rem 1rem 1rem;
+}
+
+/* End of COURSES */
+
+/* THESis */
+
+.thesis-title {
+  display: inline-block;
+  width: 100%;
+  background-color: rgb(133, 23, 26);
+  text-align: center;
+  padding: 2rem;
+}
+
+#thesis {
+background-color: rgb(133, 23, 26);
+display: flex;
+}
+
+#thesis .video {
+  width: 60%;
+}
+
+#thesis .video video {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#thesis .video h2 {
+  margin: 0 1.5rem 0.5rem 1.5rem;
+}
+
+#thesis .video p {
+  margin: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+
+#thesis .container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 40%;
+  height: auto;
+  margin: 0 1.5rem;
+  background-color: rgb(170, 59, 62);
+}
+
+#thesis .project {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+
+}
+
+#thesis .fisma {
+  background-color: rgb(253, 167, 169);
+}
+
+#thesis .now-and-then {
+}
+
+#thesis .project .information {
+  max-width: 65%;
+}
+
+#thesis .project img {
+  max-width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+#thesis .project h2 {
+  padding-bottom: 1.5rem;
+}
+
+#thesis .project p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+
+#thesis .none {
+  visibility: hidden;
+}
+
+/* End of THESIS */
+
 /* FOOTER */
 
 footer {
@@ -222,6 +360,7 @@ footer {
   width: 100%;
   height: 5rem;
   padding: 1.5rem 1.5rem;
+  border-top: 1px solid black;
   background-color: rgb(90, 1, 3);
 }
 
