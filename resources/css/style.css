@@ -176,6 +176,11 @@ header a {
   text-shadow: 2px 2px #678698;
 }
 
+header a:hover {
+color: white;
+text-shadow: 2px 2px #acb5b9;
+}
+
 /* End of HEADER */
 
 /* BANNER */
@@ -315,14 +320,30 @@ header a {
 }
 
 #information .secondary .content a {
-  color: #869EAC;
+  color: #57abdb;
   text-decoration: none;
   font-size: 1.5rem;
   line-height: 2rem;
+  text-shadow: 1px 1px #2d96d2;
 }
 
 #information .secondary .lecture {
   background-color: #D2D7D9;
+}
+
+
+#information .secondary .container:hover {
+  background-color: #D2D7D9;
+  opacity: 0.8;
+}
+
+#information .secondary .content a:hover {
+  color: #2478a8;
+  text-shadow: 1px 1px #2478a8;
+}
+
+#information .secondary .lecture:hover {
+  background-color: #e6e6e6;
 }
 
 /* End of INFORMATION */
@@ -362,6 +383,11 @@ header a {
   background-color: #D2D7D9;
 }
 
+#courses .course:hover {
+  background-color: #F6F6F6;
+  opacity: 0.6;
+}
+
 #courses .course img {
   width: 100%;
   height: auto;
@@ -398,7 +424,6 @@ display: flex;
 #thesis .video {
   width: 60%;
   padding: 0 3rem 0 1.5rem;
-  box-shadow: 3px 3px #acb5b9;
 }
 
 #thesis .video video {
@@ -439,7 +464,14 @@ display: flex;
   background-color: #D2D7D9;
 }
 
-#thesis .now-and-then {
+#thesis .fisma:hover {
+  background-color: #e6e6e6;
+  opacity: 0.8;
+}
+
+#thesis .now-and-then:hover {
+  background-color: #D2D7D9;
+  opacity: 0.8;
 }
 
 #thesis .project .information {
@@ -500,6 +532,11 @@ footer a {
   color: #F6F6F6;
   text-decoration: none;
   text-shadow: 2px 2px #678698;
+}
+
+footer a:hover {
+color: white;
+text-shadow: 2px 2px #acb5b9;
 }
 
 /* End of FOOTER */
