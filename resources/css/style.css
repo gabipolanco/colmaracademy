@@ -42,6 +42,21 @@ h2 {
     font-weight: normal;
 }
 
+@media only screen and (max-width: 1400px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
 /* HEADER */
 
 header {
@@ -83,6 +98,10 @@ header .name .grey {
   color: #F6F6F6;
 }
 
+header .mobile {
+  display: none;
+}
+
 header nav {
   margin-right: 3rem;
 }
@@ -103,6 +122,26 @@ color: #151b1e;
 header a:hover {
 color: white;
 text-shadow: 2px 2px #acb5b9;
+}
+
+@media only screen and (max-width: 1075px) {
+  header nav {
+    display: none;
+  }
+
+  header .mobile {
+    display: inline-block;rem;
+  }
+
+  header .mobile img {
+    height: 2.5rem;
+    margin-left: 2.5rem;
+    transition: all 250ms ease-out;
+  }
+
+  header .mobile img:hover {
+    opacity: 0.5;
+  }
 }
 
 /* End of HEADER */
@@ -166,8 +205,8 @@ text-shadow: 2px 2px #acb5b9;
 #banner .button:hover {
   background-color: #F6F6F6;
   border: 1px solid #F6F6F6;
-  color: #a3b6c2;
-  text-shadow: 2px 2px #668599;
+  color: #7592a3;
+  text-shadow: 2px 2px #e6e6e6;
 }
 
 /* End of BANNER */
@@ -233,6 +272,10 @@ text-shadow: 2px 2px #acb5b9;
   width: 35%;
 }
 
+#information .secondary .mobile {
+  display: none;
+}
+
 #information .secondary .content {
   width: 65%;
 }
@@ -274,6 +317,50 @@ text-shadow: 2px 2px #acb5b9;
 
 #information .secondary .lecture:hover {
   background-color: #e6e6e6;
+}
+
+@media only screen and (max-width: 1400px) {
+  #information .secondary .content h2 {
+    font-size: 1.8rem;
+  }
+
+  #information .secondary .content p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  #information .secondary .content a {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  #information .main {
+    display: none;
+  }
+
+  #information .secondary {
+    width: 100%;
+  }
+
+  #information .secondary .container {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.5rem;
+  }
+
+  #information .secondary .mobile {
+    display: inline;
+  }
+
+  #information .secondary img {
+    display: none;
+  }
+
+  #information .secondary .content {
+    max-width: 35%;
+  }
 }
 
 /* End of INFORMATION */
@@ -326,13 +413,33 @@ text-shadow: 2px 2px #acb5b9;
 }
 
 #courses .course h2 {
-  padding: 0 1rem;
+  padding: 1rem 1rem 0.7rem 1rem;
 }
 
 #courses .course p {
   font-size: 1.3rem;
   line-height: 1.8rem;
   padding: 0 1rem 1rem 1rem;
+}
+
+@media only screen and (max-width: 1214px) {
+  #courses .course {
+    height: auto;
+  }
+
+  #courses .course img {
+    margin-bottom: 0;
+  }
+
+  #courses .course h2 {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  #courses .course p {
+    display: none;
+  }
 }
 
 /* End of COURSES */
