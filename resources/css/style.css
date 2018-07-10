@@ -1,66 +1,19 @@
 @font-face {
-  font-family: Cinzel;
-  src: url(../fonts/Cinzel-Black.otf);
-  font-weight: bolder;
-}
-
-@font-face {
-  font-family: Cinzel;
-  src: url(../fonts/Cinzel-Bold.otf);
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: Cinzel;
-  src: url(../fonts/Cinzel-Regular.otf);
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: CinzelDecorative;
-  src: url(../fonts/CinzelDecorative-Black.otf);
-  font-weight: bolder;
-}
-
-@font-face {
-  font-family: CinzelDecorative;
-  src: url(../fonts/CinzelDecorative-Bold.otf);
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: CinzelDecorative;
-  src: url(../fonts/CinzelDecorative-Regular.otf);
-  font-weight: normal;
-}
-
-@font-face {
   font-family: Artifika;
   src: url(../fonts/Artifika-Regular.ttf);
   font-weight: normal;
 }
+
 @font-face {
-  font-family: Exo;
-  src: url(../fonts/Exo2-Medium.otf);
+  font-family: Faune;
+  src: url(../fonts/Faune-TextBold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Faune;
+  src: url(../fonts/Faune-TextRegular.otf);
   font-weight: normal;
-}
-
-@font-face {
-  font-family: Exo;
-  src: url(../fonts/Exo2-Black.otf);
-  font-weight: 900;
-}
-
-@font-face {
-  font-family: ;
-  src: url();
-  font-weight: ;
-}
-
-@font-face {
-  font-family: ;
-  src: url();
-  font-weight: ;
 }
 
 @font-face {
@@ -147,15 +100,16 @@ html {
 }
 
 body {
-  font-family: Exo;
+  font-family: Faune;
+  font-weight: normal;
   width: 100%;
   overflow-x: hidden;
 }
 
 h1 {
-  font-family: Exo;
+  font-family: Faune;
   font-size: 2.5rem;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 h2 {
@@ -177,6 +131,8 @@ header {
   padding: 0 1.5rem;
   z-index: 20;
   background-color: #869EAC;
+  border: 2px solid #678698;
+  opacity: 0.9;
 }
 
 #brand {
@@ -196,6 +152,7 @@ header {
   font-size: 2rem;
   text-transform: uppercase;
   color: #212426;
+  text-shadow: 3px 3px #678698;
 }
 
 header .name .grey {
@@ -207,10 +164,6 @@ header nav {
   margin-right: 3rem;
 }
 
-header nav ul {
-
-}
-
 header nav li {
   display: inline;
   padding: 0.5rem;
@@ -220,6 +173,7 @@ header nav li {
 header a {
   color: #212426;
   text-decoration: none;
+  text-shadow: 2px 2px #678698;
 }
 
 /* End of HEADER */
@@ -242,6 +196,7 @@ header a {
   max-width: 60%;
   height: auto;
   margin: 2rem 0 2rem 1.5rem;
+  box-shadow: 3px 3px #acb5b9;
 }
 
 #banner .content {
@@ -271,14 +226,20 @@ header a {
   margin-left: 1.5rem;
   padding: 1.5rem;
   background-color: #869EAC;
+  color: #F6F6F6;
+  font-size: 1.7rem;
   text-align: center;
-  border: 1px solid #D2D7D9;
+  border: 1px solid #678698;
   border-radius: 0.25rem;
+  text-shadow: 3px 3px #678698;
+  box-shadow: 3px 3px #acb5b9;
 }
 
-#banner .button span {
-  font-size: 1.7rem;
-  color: #F6F6F6;
+#banner .button:hover {
+  background-color: #F6F6F6;
+  border: 1px solid #F6F6F6;
+  color: #869EAC;
+  text-shadow: 2px 2px #acb5b9;
 }
 
 /* End of BANNER */
@@ -301,6 +262,10 @@ header a {
 
 #information img {
   margin: 2rem 1.5rem;
+}
+
+#information .main img {
+  box-shadow: 3px 3px #acb5b9;
 }
 
 #information .main h1 {
@@ -433,6 +398,7 @@ display: flex;
 #thesis .video {
   width: 60%;
   padding: 0 3rem 0 1.5rem;
+  box-shadow: 3px 3px #acb5b9;
 }
 
 #thesis .video video {
@@ -511,13 +477,13 @@ footer {
   width: 100%;
   height: 5rem;
   padding: 1.5rem 1.5rem;
-  border-top: 1px solid #D2D7D9;
+  border-top: 1px solid #678698;
   background-color: #869EAC;
 }
 
 footer .copyright {
   font-size: 1.2rem;
-  color: rgb(255, 230, 230);
+  color: #F6F6F6;
 }
 
 footer nav {
@@ -531,8 +497,9 @@ footer nav li {
 }
 
 footer a {
-  color: rgb(255, 230, 230);
+  color: #F6F6F6;
   text-decoration: none;
+  text-shadow: 2px 2px #678698;
 }
 
 /* End of FOOTER */
