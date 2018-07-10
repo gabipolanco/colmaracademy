@@ -16,84 +16,6 @@
   font-weight: normal;
 }
 
-@font-face {
-  font-family: ;
-  src: url();
-  font-weight: ;
-}
-
-@font-face {
-  font-family: ;
-  src: url();
-  font-weight: ;
-}
-
-@font-face {
-  font-family: ;
-  src: url();
-  font-weight: ;
-}
-
-@font-face {
-  font-family: ;
-  src: url();
-  font-weight: ;
-}
-
-@font-face {
-  font-family: ;
-  src: url();
-  font-weight: ;
-}
-
-@font-face {
-  font-family: ;
-  src: url();
-  font-weight: ;
-}
-
-@font-face {
-  font-family: ;
-  src: url();
-  font-weight: ;
-}
-
-@font-face {
-  font-family: ;
-  src: url();
-  font-weight: ;
-}
-
-@font-face {
-  font-family: ;
-  src: url();
-  font-weight: ;
-}
-
-@font-face {
-  font-family: ;
-  src: url();
-  font-weight: ;
-}
-
-@font-face {
-  font-family: ;
-  src: url();
-  font-weight: ;
-}
-
-@font-face {
-  font-family: ;
-  src: url();
-  font-weight: ;
-}
-
-@font-face {
-  font-family: ;
-  src: url();
-  font-weight: ;
-}
-
 html {
   font-size: 16px;
   width: 100%;
@@ -175,6 +97,7 @@ header a {
 color: #151b1e;
   text-decoration: none;
   text-shadow: 2px 2px #678698;
+  transition: all 250ms ease-out;
 }
 
 header a:hover {
@@ -237,6 +160,7 @@ text-shadow: 2px 2px #acb5b9;
   border-radius: 0.25rem;
   text-shadow: 3px 3px #678698;
   box-shadow: 3px 3px #D2D7D9;
+  transition: all 250ms ease-out;
 }
 
 #banner .button:hover {
@@ -259,12 +183,13 @@ text-shadow: 2px 2px #acb5b9;
 }
 
 #information .main {
-    width: 60%;
+    max-width: 60%;
     height: auto;
     padding: 2rem 1.5rem;
 }
 
 #information img {
+  max-width: 100%;
   margin: 2rem 1.5rem;
 }
 
@@ -301,6 +226,7 @@ text-shadow: 2px 2px #acb5b9;
   display: flex;
   align-items: center;
   width: 100%;
+  transition: all 250ms ease-out 150ms;
 }
 
 #information .secondary img {
@@ -332,6 +258,7 @@ text-shadow: 2px 2px #acb5b9;
 
 #information .secondary .lecture {
   background-color: #D2D7D9;
+  transition: all 250ms ease-out 150ms;
 }
 
 
@@ -384,6 +311,7 @@ text-shadow: 2px 2px #acb5b9;
   height: 28rem;
   margin: 0 1rem 2rem 1rem;
   background-color: #D2D7D9;
+  transition: all 250ms ease-out 150ms;
 }
 
 #courses .course:hover {
@@ -460,11 +388,13 @@ display: flex;
   width: 100%;
   display: inline-flex;
   align-items: center;
+  transition: all 250ms ease-out 150ms;
 
 }
 
 #thesis .fisma {
   background-color: #D2D7D9;
+  transition: all 250ms ease-out 150ms;
 }
 
 #thesis .fisma:hover {
@@ -536,6 +466,7 @@ footer a {
   color: #ffffff;
   text-decoration: none;
   text-shadow: 2px 2px #678698;
+  transition: all 250ms ease-out;
 }
 
 footer a:hover {
