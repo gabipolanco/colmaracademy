@@ -1,23 +1,167 @@
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Black.otf);
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Regular.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: CinzelDecorative;
+  src: url(../fonts/CinzelDecorative-Black.otf);
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: CinzelDecorative;
+  src: url(../fonts/CinzelDecorative-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: CinzelDecorative;
+  src: url(../fonts/CinzelDecorative-Regular.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Artifika;
+  src: url(../fonts/Artifika-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Exo;
+  src: url(../fonts/Exo2-Medium.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url(../fonts/Exo2-Black.otf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-weight: ;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-weight: ;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-weight: ;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-weight: ;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-weight: ;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-weight: ;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-weight: ;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-weight: ;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-weight: ;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-weight: ;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-weight: ;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-weight: ;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-weight: ;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-weight: ;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-weight: ;
+}
+
 html {
   font-size: 16px;
   width: 100%;
 }
 
 body {
+  font-family: Exo;
   width: 100%;
   overflow-x: hidden;
 }
 
 h1 {
+  font-family: Exo;
   font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 h2 {
-
     font-size: 2rem;
     line-height: 2.5rem;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* HEADER */
@@ -32,7 +176,7 @@ header {
   height: 4rem;
   padding: 0 1.5rem;
   z-index: 20;
-  background-color: rgb(253, 167, 169);
+  background-color: #869EAC;
 }
 
 #brand {
@@ -48,13 +192,15 @@ header {
 }
 
 #brand .name {
+  font-family: Artifika;
   font-size: 2rem;
   text-transform: uppercase;
+  color: #212426;
 }
 
 header .name .grey {
   display: inline;
-  color: grey;
+  color: #F6F6F6;
 }
 
 header nav {
@@ -72,7 +218,7 @@ header nav li {
 }
 
 header a {
-  color: black;
+  color: #212426;
   text-decoration: none;
 }
 
@@ -89,7 +235,7 @@ header a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: rgb(213, 105, 108);
+  background-color: #D2D7D9;
 }
 
 #banner img {
@@ -109,13 +255,13 @@ header a {
   line-height: 3rem;
   margin-bottom: 2rem;
   padding-left: 1.5rem;
-  color: #000038;
+  color: #212426;
 }
 
 #banner h2 {
   max-width: 75%;
   padding-left: 1.5rem;
-  color: #000054;
+  color: #212426;
 }
 
 #banner .button {
@@ -124,15 +270,15 @@ header a {
   margin-top: 2rem;
   margin-left: 1.5rem;
   padding: 1.5rem;
-  background-color: rgb(90, 1, 3);
+  background-color: #869EAC;
   text-align: center;
-  border: 1px solid rgb(253, 167, 169);
+  border: 1px solid #D2D7D9;
   border-radius: 0.25rem;
 }
 
 #banner .button span {
   font-size: 1.7rem;
-  color: white;
+  color: #F6F6F6;
 }
 
 /* End of BANNER */
@@ -144,7 +290,7 @@ header a {
   height: auto;
   position: relative;
   display: flex;
-  background-color: rgb(170, 59, 62);
+  background-color: #F6F6F6;
 }
 
 #information .main {
@@ -176,7 +322,7 @@ header a {
 
 #information .secondary {
   width: 40%;
-  background-color: rgb(133, 23, 26);
+  background-color: #F6F6F6;
 }
 
 #information .secondary .container {
@@ -204,10 +350,14 @@ header a {
 }
 
 #information .secondary .content a {
-  color: lightblue;
+  color: #869EAC;
   text-decoration: none;
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+#information .secondary .lecture {
+  background-color: #D2D7D9;
 }
 
 /* End of INFORMATION */
@@ -215,7 +365,7 @@ header a {
 /* COURSES */
 
 #courses {
-  background-color: rgb(213, 105, 108);
+  background-color: #D2D7D9;
   width: 100%;
   height: auto;
   display: flex;
@@ -244,7 +394,7 @@ header a {
   max-width: 30%;
   height: 28rem;
   margin: 0 1rem 2rem 1rem;
-  background-color: rgb(170, 59, 62);
+  background-color: #D2D7D9;
 }
 
 #courses .course img {
@@ -270,22 +420,23 @@ header a {
 .thesis-title {
   display: inline-block;
   width: 100%;
-  background-color: rgb(133, 23, 26);
+  background-color: #F6F6F6;
   text-align: center;
   padding: 2rem;
 }
 
 #thesis {
-background-color: rgb(133, 23, 26);
+background-color: #F6F6F6;
 display: flex;
 }
 
 #thesis .video {
   width: 60%;
+  padding: 0 3rem 0 1.5rem;
 }
 
 #thesis .video video {
-  padding: 0 1.5rem 1.5rem 1.5rem;
+  margin: 0 1.5rem 1.5rem 1.5rem;
   height: auto;
   max-width: 100%;
   overflow: hidden;
@@ -308,7 +459,7 @@ display: flex;
   max-width: 40%;
   height: auto;
   margin: 0 1.5rem;
-  background-color: rgb(170, 59, 62);
+  background-color: #F6F6F6;
 }
 
 #thesis .project {
@@ -319,7 +470,7 @@ display: flex;
 }
 
 #thesis .fisma {
-  background-color: rgb(253, 167, 169);
+  background-color: #D2D7D9;
 }
 
 #thesis .now-and-then {
@@ -360,8 +511,8 @@ footer {
   width: 100%;
   height: 5rem;
   padding: 1.5rem 1.5rem;
-  border-top: 1px solid black;
-  background-color: rgb(90, 1, 3);
+  border-top: 1px solid #D2D7D9;
+  background-color: #869EAC;
 }
 
 footer .copyright {
