@@ -1,3 +1,5 @@
+/* FONTS */
+
 @font-face {
   font-family: Artifika;
   src: url(../fonts/Artifika-Regular.ttf);
@@ -16,13 +18,17 @@
   font-weight: normal;
 }
 
+/* End of FONTS */
+
+/* BODY */
+
 html {
   font-size: 16px;
   width: 100%;
 }
 
 body {
-  font-family: Faune;
+  font-family: Faune, sans-serif;
   font-weight: normal;
   width: 100%;
   overflow-x: hidden;
@@ -30,7 +36,7 @@ body {
 }
 
 h1 {
-  font-family: Faune;
+  font-family: Faune, sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
   text-shadow: 2px 2px #acb5b9;
@@ -56,6 +62,8 @@ h2 {
     font-size: 0.8rem;
   }
 }
+
+/* End of BODY */
 
 /* HEADER */
 
@@ -87,7 +95,7 @@ header {
 }
 
 #brand .name {
-  font-family: Artifika;
+  font-family: Artifika, serif;
   font-size: 2rem;
   text-transform: uppercase;
   text-shadow: 3px 3px #678698;
@@ -528,7 +536,7 @@ text-shadow: 2px 2px #acb5b9;
   width: 100%;
   background-color: #F6F6F6;
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 #thesis {
@@ -606,10 +614,6 @@ display: flex;
 
 
 @media only screen and (max-width: 691px) {
-  .thesis-title {
-    padding-left: 0;
-  }
-
   #thesis .container {
     display: none;
   }
